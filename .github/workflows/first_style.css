@@ -1,0 +1,147 @@
+.Sun_div{
+    position: absolute;
+    height: 100%;
+    width: 1000px;
+    left: 0%;}
+.Mercury_div{
+    position: absolute;
+    height: 100%;
+    width: 130px;
+    left: 700px;}
+.Venus_div{
+    position: absolute;
+    height: 100%;
+    width: 100px;
+    left: 825px;}
+.Earth_div{
+    position: absolute;
+    height: 100%;
+    width: 200;
+    left: 920px;}
+.Mars_div{
+    position: absolute;
+    height: 100%;
+    width: 400px;
+    left: 1115px;}
+.Jupeter_div{
+    position: absolute;
+    height: 100%;
+    width: 510px;
+    left: 1510px;}
+.Saturn_div{
+    position: absolute;
+    height: 100%;
+    width: 600px;
+    left: 2035px;}
+.Uranus_div{
+    position: absolute;
+    height: 100%;
+    width: 110px;
+    left: 2630px;}
+.Neptune_div{
+    position: absolute;
+    height: 100%;
+    width: 100px;
+    left: 2735px;}
+.Pluto_div{
+    position: absolute;
+    height: 100%;
+    width: 85px;
+    left: 2830px;}
+.Empty_space{
+    position: absolute;
+    height: 100%;
+    width: 30px;
+    left: 2910px;}
+
+.Sun {
+    position:absolute;
+    height:1050px;
+    width:1000px;
+    bottom:0%;}
+    .Mercury{
+        position:absolute;
+        width:140px;
+        height:140px;
+        bottom:29%;
+        transform:rotate(40deg);}
+    .Mercury{
+        position:absolute;
+        width:140px;
+        height:140px;
+        bottom:29%;
+        transform:rotate(32deg);}
+    .Venus {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        bottom: 48%;
+        transform: rotate(32deg);}
+    .Earth {
+        position: absolute;
+        transform: rotate(312deg); /* 280 + 32 */
+        width: 200px;
+        height: 200px;
+        bottom: 62%;}
+    .Mars {
+        position: absolute;
+        transform: rotate(-98deg); /* -130 + 32 */
+        width: 400px;
+        height: 400px;
+        bottom: 20%;}
+    .Jupeter {
+        position: absolute;
+        transform: rotate(37deg); /* 5 + 32 */
+        width: 500px;
+        height: 400px;
+        bottom: 15%;}
+    .Saturn {
+        position:absolute;
+        transform:rotate(40deg);/* 8 + 32 */
+        width:600px;
+        height:600px;
+        bottom:45%;}
+    .Uranus{
+        position:absolute;
+        transform:rotate(-28deg);/* -60 + 32 */
+        width:110px;
+        height:110px;
+        bottom:73%;}
+    .Neptune{
+        position:absolute;
+        transform:rotate(7deg); /* -25 + 32 */
+        width:100px;
+        height:100px;
+        bottom:45%;}
+    .Pluto {
+        position:absolute;
+        transform:rotate(-148deg); /* -180 + 32 */
+        width:85px;
+        height:85px;
+        bottom:65%;}     
+
+.overlay{position:fixed;
+    top:0;
+    right:0;
+    width:0;
+    height:0;
+    background:rgba(245, 245, 245, 0.872); 
+    border-radius:10px;
+    transition:all 3.4s;}
+  .overlay.active {width:100%;
+    height:100%;}
+
+.text{position:relative;
+    visibility:hidden;
+    font-family:B Koodak;/* فونت*/
+    font-size:45px;
+    z-index:10000;
+    color:rgb(1, 1, 1);
+    width:60%;
+    float:left;
+    left:90px;
+    text-align:right;}    
+
+body {background-image: url('Background.jpeg');
+    background-size: 20%;}
+/* کامنت */
